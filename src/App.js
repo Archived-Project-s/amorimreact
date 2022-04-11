@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import GlitchTexto from './components/GlitchTexto/Index';
+import GlitchTexto2 from './components/GlitchTexto2/Index';
+import TelaInicial from './components/TelaInicial/Index';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TelaInicial/>
+{/*       <GlitchTexto2></GlitchTexto2>
+      <GlitchTexto></GlitchTexto> */}
     </div>
   );
 }
